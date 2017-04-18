@@ -38,7 +38,6 @@ public class CalculatorApplicationTest {
 
         ThriftClientManager clientManager = new ThriftClientManager(thriftCodecManager);
         client = clientManager.createClient(connector, TCalculatorService.class).get();
-        System.out.println("fr");
     }
 
     @Test
